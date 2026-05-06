@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convertisseur de Distance"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/champSaisieDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez la valeur"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <RadioGroup
+        android:id="@+id/groupeConversionDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <RadioButton
+            android:id="@+id/radioKmVersMiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kilomètres vers Miles"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioMilesVersKm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Miles vers Kilomètres" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/boutonCalculerDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="CONVERTIR" />
+
+    <TextView
+        android:id="@+id/affichageResultatDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Résultat : --"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_blue_dark" />
+
+</LinearLayout>

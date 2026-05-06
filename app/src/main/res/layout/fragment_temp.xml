@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convertisseur de Température"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/champSaisieTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez la température"
+        android:inputType="numberSigned|numberDecimal"
+        android:minHeight="48dp" />
+
+    <RadioGroup
+        android:id="@+id/groupeConversionTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <RadioButton
+            android:id="@+id/radioCelsiusVersFahr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Celsius vers Fahrenheit"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioFahrVersCelsius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fahrenheit vers Celsius" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/boutonCalculerTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="CONVERTIR" />
+
+    <TextView
+        android:id="@+id/affichageResultatTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Résultat : --"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_red_dark" />
+
+</LinearLayout>
