@@ -3,8 +3,6 @@
 **Auteur :** Zaynab Bellafrikh (4IIR-G2)  
 **Institution :** EMSI - École Marocaine des Sciences de l'Ingénieur
 
-#  Application de Conversion d'Unités (Lab - Tabs & ViewPager2)
-
 Ce projet est une application Android développée en **Java** dans le cadre d'un laboratoire. Elle permet de convertir des unités de **Distance** (Kilomètres/Miles) et de **Température** (Celsius/Fahrenheit) via une interface moderne et fluide.
 
 ##  Fonctionnalités
