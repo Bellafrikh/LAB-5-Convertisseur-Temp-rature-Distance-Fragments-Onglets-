@@ -1,4 +1,4 @@
-﻿# LAB-5-Convertisseur-Temp-rature-Distance-Fragments-Onglets-
+﻿# LAB5: Convertisseur Temp rature Distance Fragments Onglets
 
 **Auteur :** Zaynab Bellafrikh (4IIR-G2)  
 **Institution :** EMSI - École Marocaine des Sciences de l'Ingénieur
